@@ -1,0 +1,41 @@
+body,
+html {
+	height: 100%;
+}
+
+.container {
+	background-image: url(WebsiteBackdrop.jpg);
+	height: 500%;
+	width: 150%;
+	background-position: center;
+	background-size: cover;
+}
+
+.middle {
+	position: absolute;
+	color: beige;
+	top: 70%;
+	left: 39%;
+	text-align: center;
+	font-size: 25px;
+}
+
+.middle ul {
+	list-style-type: circle;
+}
+
+.middle ul li {
+	text-align: left !important;
+}
+
+.middle ul li a {
+	color: beige;
+}
+
+.middle ul li a:hover {
+	color: red;
+	text-decoration: none;
+}
+
+	
+	
